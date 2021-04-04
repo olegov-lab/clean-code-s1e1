@@ -1,4 +1,5 @@
 /* Basic Style */
+
 body {
   background-color: #f8f8f8;
   color: #333;
@@ -69,6 +70,7 @@ body {
 }
 
 /* Heading */
+
 .title {
   color: #333;
   font-weight: 700;
@@ -99,6 +101,7 @@ body {
 }
 
 /* New Task */
+
 .title-add {
   display: block;
   margin: 0 0 20px;
@@ -113,6 +116,7 @@ p > button:hover {
 }
 
 /* Task list */
+
 .item {
   overflow: hidden;
   padding: 20px 0;
@@ -153,12 +157,14 @@ p > button:hover {
 }
 
 /* Completed */
+
 .list#completed-tasks .task-label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
+
 .item .task-input {
   display: none;
 }
